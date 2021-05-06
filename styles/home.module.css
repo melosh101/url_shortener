@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    height: auto;
+    width: 60%;
+    position: relative;
+    border: 3px solid green; 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.container > * {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+}
+
+.spinner {
+    text-align: center; 
+    width: 48px;
+    height: 48px;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+}
