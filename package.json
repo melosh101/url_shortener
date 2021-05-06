@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "migrate": "prisma migrate deploy"
+    "migrate": "prisma migrate dev"
   },
   "dependencies": {
     "@emotion/react": "^11.1.5",
